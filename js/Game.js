@@ -125,7 +125,10 @@ if(this.caravan.distance >= OregonH.FINAL_DISTANCE) {
   return;
 }
 
-//random events logic will go here..
+//random events
+if(Math.random() <= OregonH.EVENT_PROBABILITY) {
+  this.eventManager.generateEvent();
+}
 
 };
 
