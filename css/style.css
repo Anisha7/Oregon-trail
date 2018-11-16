@@ -21,7 +21,9 @@ html {
    
   #journey {
     height: 100%;
-    background-color: #5F9FFF;
+    /* background-color: #5F9FFF; */
+    background-image: url("../images/bg.jpg");
+    
   }
    
   #event {
@@ -29,10 +31,16 @@ html {
   }
    
   #progress-area {
-    float: left;
-    position: relative;
+    /* float: left; */
+    /* position: relative; */
     width: 400px;
+    width: 50%;
     margin: 10px;
+
+    /* trying to center progress on page */
+    position: fixed;
+    margin: 25%;
+    margin-top: 40%;
   }
    
   #trees {
@@ -42,8 +50,10 @@ html {
    
   #caravan {
     position: absolute;
-    bottom: 30px;
+    bottom: 150px;
     left: 0;
+    width: 20%;
+    height: 60%;
   }
    
   #stats-area {
@@ -71,6 +81,7 @@ html {
     padding: 10px;
     font-size: 12px;
     overflow-y: scroll;
+
   }
    
   .update-positive {
