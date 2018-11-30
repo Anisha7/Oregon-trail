@@ -4,14 +4,29 @@
   <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Learn Game Development at Zenva Academy | Zenva.com</title>
+    <title>Ocean Rope Trail</title>
     <link rel="stylesheet" href="css/style.css"/>
   </head>
   
   <body>
         <div id="home"></div>
         <div id="journey">
+
           <div id="stats-area">
+            <div id="shop" class="hidden">
+                <h3> Shop </h3>
+                <div id="prods">
+                </div>
+                <button>Leave shop</button>
+            </div>
+
+            <div id="attack" class="hidden">
+                <div id="attack-description"></div>
+                <button id="fight">Fight</button>
+                <button id="runaway">Run away</button>
+            </div>
+
+            <h3> Your Bag </h3>
             <div class="stat">Day <span id="stat-day" class="stat-value"></span></div>
             <div class="stat">Distance <span id="stat-distance" class="stat-value"></span></div>
             <div class="stat">Crew <span id="stat-crew" class="stat-value"></span></div>
@@ -20,18 +35,13 @@
             <div class="stat">Money <span id="stat-money" class="stat-value"></span></div>
             <div class="stat">Firepower <span id="stat-firepower" class="stat-value"></span></div>
             <div class="stat">Weight <span id="stat-weight" class="stat-value"></span><span id="stat-capacity" class="stat-value"></span></div>
-          </div>
-          <div class="updates-area" id="updates-area"></div>
-          <div id="shop" class="hidden">
-            <div id="prods">
+            <h3 class="update"> Updates </h3>
+            <div class="updates-area" id="updates-area">
+              
             </div>
-            <button>Leave shop</button>
           </div>
-          <div id="attack" class="hidden">
-            <div id="attack-description"></div>
-            <button id="fight">Fight</button>
-            <button id="runaway">Run away</button>
-          </div>
+          
+          
           <div id="progress-area">
             <img id="caravan" src="images/jelly.png" />
             <img id="trees" src="images/rope.png" />

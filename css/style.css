@@ -39,8 +39,9 @@ html {
 
     /* trying to center progress on page */
     position: fixed;
-    margin: 25%;
+    /* margin: 25%; */
     margin-top: 40%;
+    margin-left: 35%;
   }
    
   #trees {
@@ -57,30 +58,46 @@ html {
   }
    
   #stats-area {
-    background-color: white;
+    /* background-color: white; */
+    background-color: lightskyblue;
     float: left;
-    height: 150px;
-    width: 156px;
+    /* height: 150px; */
+    height: 100%;
+    width: 350px;
     margin: 10px;
     padding: 10px;
-    font-size: 14px;
+    font-size: 18px;
   }
-   
-   
+  
+  #stats-area .stat {
+    border-bottom: 1px solid lightblue;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+  } 
    
   .stat-value {
     float: right;
   }
-   
+  
+  #stats-area h3 {
+    text-align: center;
+  }
+  
+  #stats-area .update {
+    margin-top: 50px;
+  }
+
   #updates-area {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.55);
     float: left;
-    width: 350px;
-    margin: 10px;
+    width: 300px;
+    margin: 0;
     height: 150px;
     padding: 10px;
-    font-size: 12px;
+    font-size: 14px;
     overflow-y: scroll;
+    margin-left: 10px;
 
   }
    
@@ -98,17 +115,31 @@ html {
    
   #shop {
     float: left;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.55);
     margin: 10px;
     padding: 10px;
-    height: 90px;
-    width: 350px;
+    height: 220px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  #shop h3 {
+    text-align: center;
+    /* styling */
+    background-color: orange;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid brown;
+    margin-top: 0;
+    padding: 8px;
+    color: white;
   }
    
   .product {
     float: left;
     margin: 5px;
-    padding: 2px;
+    padding: 10px;
     border: 1px solid black;
     font-size: 12px;
   }
@@ -117,13 +148,32 @@ html {
     clear: both;
     float: left;
     margin: 5px;
+    padding-left: 32%;
+    padding-right: 32%;
+    font-size: 16px;
+    background-color: brown;
+    border: 2px solid orange;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #prods {
+    padding: 15px;
   }
    
   #attack {
     float: left;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.55);
     margin: 10px;
     padding: 10px;
-    height: 60px;
-    width: 150px;
+    height: 100px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+
+  #attack button {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
   }
