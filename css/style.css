@@ -178,7 +178,9 @@ html {
     width: 120px;
     margin-top: 10px;
     font-size: 16px;
-    background-color: purple;
+    background-color: rgb(175, 97, 175);
+    color: white;
+    border-radius: 6px;
   }
 
   #attack-description {
